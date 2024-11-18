@@ -8,7 +8,7 @@ describe('Bank app', () => {
   const balanceAfterDeposit = accountBalance + depositAmount;
   const balanceAfterWithdraw = balanceAfterDeposit - withdrawAmount;
   const user = 'Hermoine Granger';
-  const accountNumber = '1001';
+  const accountNumber = 1001;
   const changeAccountNumber = 1003;
 
   before(() => {
